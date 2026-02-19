@@ -1,30 +1,19 @@
-<!-- ไฟล์ index.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ตัวอย่างปุ่ม CSS</title>
-    <!-- Internal CSS -->
-    <style>
-        .btn-primary {
-            background-color: #007bff;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
-    <!-- External CSS -->
-    <link rel="stylesheet" href="css/buttons.css">
+    <meta charset="UTF-8">
+    <title>ร้านค้าออนไลน์</title>
+ <link rel="stylesheet" href="buttons.css">
+
 </head>
 <body>
-    <!-- Inline CSS -->
-    <button style="background-color: #dc3545; color: white; padding: 10px 20px;">ปุ่มแบบ Inline</button>
-    
-    <!-- Internal CSS -->
-    <button class="btn-primary">ปุ่มแบบ Internal</button>
-    
-    <!-- External CSS -->
-    <button class="btn-success">ปุ่มแบบ External</button>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item"id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
